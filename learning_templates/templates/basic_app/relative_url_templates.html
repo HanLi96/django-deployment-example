@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1> relative_url_templates </h1>
+    <!-- urls: set app_name and match here -->
+    <!-- no space inside the 'basic' or can not find other -->
+    <a href="{% url 'basic_app:other' %}">OTHER</a>
+    <a href="{% url 'admin:index'%}">admin</a>
+    <a href="{% url 'index'%}">index</a>
+  </body>
+</html>
